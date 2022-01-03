@@ -7,7 +7,7 @@
 [![devDependency Status](https://david-dm.org/natergj/excel4node/dev-status.svg)](https://david-dm.org/natergj/excel4node#info=devDependencies)
 
 # excel4node
-This is
+This is a
 A full featured xlsx file generation library allowing for the creation of advanced Excel files.
 
 excel4node conforms to the ECMA-376 OOXML specification 2nd edition
