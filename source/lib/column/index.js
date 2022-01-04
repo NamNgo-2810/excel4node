@@ -12,6 +12,7 @@ const utils = require('../utils.js');
  * @param {Number} col Column of top left cell
  * @returns {Column}
  */
+
 let colAccessor = (ws, col) => {
     if (!(ws.cols[col] instanceof Column)) {
         ws.cols[col] = new Column(col, ws);
