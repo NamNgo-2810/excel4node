@@ -4,7 +4,7 @@ const Column = require('../column/column.js');
 const utils = require('../utils.js');
 
 /**
- * Module repesenting a Column Accessor
+ * Module repesenting a Column Accessor...123abc
  * @alias Worksheet.column
  * @namespace
  * @func Worksheet.column
