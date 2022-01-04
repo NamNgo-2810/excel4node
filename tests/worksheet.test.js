@@ -16,7 +16,6 @@ test('Generate multiple sheets', (t) => {
     t.ok(
         wb.sheets[0].opts.sheetView.tabSelected === 0 &&
         wb.sheets[1].opts.sheetView.tabSelected === 1 &&
-        wb.sheets[1].opts.sheetView.tabSelected === 1 &&
         wb.sheets[2].opts.sheetView.tabSelected === 0, '2nd Tab set to be default tab selected');
 
     t.end();
