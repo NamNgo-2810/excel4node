@@ -195,6 +195,7 @@ class Picture extends Drawing {
         prstGeom.ele('a:avLst');
 
         anchorEle.ele('xdr:clientData');
+
     }
 }
 
