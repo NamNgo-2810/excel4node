@@ -34,7 +34,7 @@ items.prototype.validate = function (val) {
                 opts.push(name);
             }
         }
-        throw new TypeError('Invalid value for ST_PatternType; Value must be one of ' + this.opts.join(', '));
+        throw new TypeError('Invalid value able for ST_PatternType; Value must be one of ' + this.opts.join(', '));
     } else {
         return true;
     }
