@@ -70,7 +70,7 @@ readingOrders.prototype.validate = function (val) {
                 opts.push(name);
             }
         }
-        throw new TypeError(`Invalid value for alignment.readingOrder ${val}; Value must be one of ${this.opts.join(', ')}`);
+        throw new TypeError(`Invalid value able for alignment.readingOrder ${val}; Value must be one of ${this.opts.join(', ')}`);
     } else {
         return true;
     }
