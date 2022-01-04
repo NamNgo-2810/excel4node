@@ -653,7 +653,6 @@ function generateWorkbook() {
     return wb;
 }
 
-
 var wb = generateWorkbook();
 
 /*
