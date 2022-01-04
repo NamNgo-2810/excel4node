@@ -9,6 +9,7 @@ test('Generate multiple sheets', (t) => {
     let ws = wb.addWorksheet('test');
     let ws2 = wb.addWorksheet('test2');
     let ws3 = wb.addWorksheet('test3');
+    let ws3 = wb.addWorksheet('test3');
 
     t.ok(wb.sheets.length === 3, 'Correctly generated multiple sheets');
 
