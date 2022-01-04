@@ -15,8 +15,9 @@ test('Change default workbook options', (t) => {
             color: 'FFFFFFFF'
         }
     });
-    
+
     let wb1Font = wb.styleData.fonts[0];
+    let wb2Font = wb2.styleData.fonts[0];
     let wb2Font = wb2.styleData.fonts[0];
 
     t.ok(wb1Font instanceof Font, 'Default Font successfully created');
