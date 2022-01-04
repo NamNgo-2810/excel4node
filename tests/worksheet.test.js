@@ -52,7 +52,7 @@ test('Set Worksheet options', (t) => {
             'scaleWithDoc': true
         },
         'pageSetup': {
-            'blackAndWhite': false,
+            'blackAndWhite': true,
             'cellComments': 'none', // one of 'none', 'asDisplayed', 'atEnd'
             'copies': 1,
             'draft': false,
