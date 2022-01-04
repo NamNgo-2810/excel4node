@@ -48,7 +48,7 @@ test('Set Worksheet options', (t) => {
             'oddHeader': 'Odd Header String',
             'alignWithMargins': true,
             'differentFirst': true,
-            'differentOddEven': false,
+            'differentOddEven': true,
             'scaleWithDoc': true
         },
         'pageSetup': {
