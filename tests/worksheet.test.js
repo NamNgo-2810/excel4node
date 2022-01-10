@@ -452,7 +452,7 @@ test('Check worksheet addPageBreak behavior', (t) => {
 
             let colBreakXml = doc.getElementsByTagName('colBreaks')[0];
             t.equals(colBreakXml.getAttribute('count'), '1', 'has 1 column break');
-            let firstColBreak= colBreakXml.getElementsByTagName('brk')[0];
+            let firstColBreak = colBreakXml.getElementsByTagName('brk')[0];
             t.equals(firstColBreak.getAttribute('id'), '8', 'first column break in correct position');
         })
         .then(() => {

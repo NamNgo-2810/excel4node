@@ -148,6 +148,7 @@ class Row {
      * @func Row.hide
      * @returns {Row} Excel Row with attached methods
      */
+
     hide() {
         this.hidden = true;
         return this;

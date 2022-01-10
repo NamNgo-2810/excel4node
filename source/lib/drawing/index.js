@@ -18,7 +18,7 @@ class DrawingCollection {
             return newPic;
 
         default:
-            throw new TypeError('this option is not yet supported');
+            throw new TypeError('this option is not yet supported !');
         }
     }
 

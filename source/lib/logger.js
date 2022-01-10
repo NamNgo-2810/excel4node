@@ -1,3 +1,4 @@
+// class SimpleLogger
 class SimpleLogger {
   constructor(opts) {
     this.logLevel = opts.logLevel || 5;

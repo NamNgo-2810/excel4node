@@ -4,7 +4,7 @@ const Column = require('../column/column.js');
 const utils = require('../utils.js');
 
 /**
- * Module repesenting a Column Accessor
+ * Module repesenting a Column Accessor...123abc
  * @alias Worksheet.column
  * @namespace
  * @func Worksheet.column
@@ -12,6 +12,7 @@ const utils = require('../utils.js');
  * @param {Number} col Column of top left cell
  * @returns {Column}
  */
+
 let colAccessor = (ws, col) => {
     if (!(ws.cols[col] instanceof Column)) {
         ws.cols[col] = new Column(col, ws);

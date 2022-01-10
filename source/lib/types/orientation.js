@@ -7,7 +7,6 @@ function items() {
     });
 }
 
-
 items.prototype.validate = function (val) {
     if (this[val.toLowerCase()] === undefined) {
         let opts = [];

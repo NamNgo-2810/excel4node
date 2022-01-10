@@ -275,6 +275,7 @@ let addCorePropertiesXML = (promiseObj) => {
   return promiseObj;
 };
 
+// note
 let addWorksheetsXML = (promiseObj) => {
   // Required as stated in §12.2
   return new Promise((resolve, reject) => {

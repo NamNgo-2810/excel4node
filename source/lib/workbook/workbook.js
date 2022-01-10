@@ -15,7 +15,7 @@ const builder = require('./builder.js');
 const http = require('http');
 const SimpleLogger = require('../logger');
 
-/* Available options for Workbook
+/* Available options for Workbook note
 {
     jszip : {
         compression : 'DEFLATE'
