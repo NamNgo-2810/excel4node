@@ -27,10 +27,10 @@ test('Set Worksheet options', (t) => {
         'margins': { // Accepts a Double in Inches
             'bottom': 1.25,
             'footer': 1.5,
-            'header': 2.0,
+            'header': 2,
             'left': 0.5,
             'right': 0.75,
-            'top': 1.0
+            'top': 1
         },
         'printOptions': {
             'centerHorizontal': true,
