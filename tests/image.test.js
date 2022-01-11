@@ -6,7 +6,7 @@ const Picture = require('../source/lib/drawing/picture.js');
 const path = require('path');
 const fs = require('fs');
 
-test('Test adding images', (t) => {
+test('Add Images Testing', (t) => {
     var wb = new xl.Workbook();
     var ws = wb.addWorksheet('test 1');
 
