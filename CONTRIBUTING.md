@@ -1,4 +1,3 @@
-# Contributing
 
 By participating in this project, you
 agree to abide by the thoughtbot [code of conduct].
