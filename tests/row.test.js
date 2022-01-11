@@ -2,7 +2,7 @@ let test = require('tape');
 let xl = require('../source/index');
 let Row = require('../source/lib/row/row.js');
 
-test('Row Tests', (t) => {
+test('Row Tests', t => {
 
     let rowWb = new xl.Workbook({ logLevel: 5 });
     let rowWS = rowWb.addWorksheet();
@@ -22,6 +22,7 @@ test('Row Tests', (t) => {
         lastRow: 20,
         lastColumn: 5
     });
+
     t.equals(rowWS.opts.autoFilter.endRow, 20, 'Manual filters set to end at row 20');
     t.equals(rowWS.opts.autoFilter.endCol, 5, 'Manual filters set to end at column 5');
     t.equals(rowWS.opts.autoFilter.startCol, 2, 'Manual filters set to start at column 2');
