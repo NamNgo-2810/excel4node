@@ -4,7 +4,7 @@ module.exports = {
         "sourceType": "module"
     },
     'rules': {
-        // TODO add a logger lib to the project
+        // TODO add a logger lib to the project code
         // 'no-console': 2
         'brace-style': [2, '1tbs'],
         'camelcase': 1,
